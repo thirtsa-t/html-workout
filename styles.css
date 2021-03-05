@@ -1,0 +1,158 @@
+.topnav{
+    background-color: rgb(255, 255, 255);
+width: 100%;
+height: 60px;
+
+
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 25px;
+    font-size: 17px;
+    text-decoration: none;
+    height: 60px;
+}
+    
+
+ .topnav a:hover{
+    background-color: cornsilk;
+    height: 60px;
+}
+body{ 
+    margin: 0px;
+    
+}
+.topnav .search-container {
+    float: right;
+    width: 100%;
+    padding: 10px 10px;
+    margin: top 5px;
+    background-color: wheat;
+    border:none;
+}
+.input-search{
+    width: 40%;
+    height: 30px;
+    padding: 5px 5px;
+    margin: 10px;
+    border: none;
+}
+.input-button{
+    margin-left: -20px;
+    width: 5%;
+    height: 40px;
+    border: none;
+}
+
+    .two{
+        text-align: center;
+        width: 100%;
+        float: right;
+        margin-top: -40px;
+        padding-left: 110px;
+        height: 70%;
+        background-color: rgb(97, 16, 16);
+        font-size: 40px;
+
+    }
+    .sidenav a{
+        text-decoration: none;
+        height: 60px;
+        text-align: left;
+        padding:0px ;
+        display: block;
+        color: rgb(255, 248, 248);
+        
+        
+        
+    }
+    .sidenav a:hover {
+        color: rgb(141, 121, 121);
+        background-color: rgb(224, 207, 207);
+    }
+    .sidenav {
+        height: 80%;
+        width: 160px;
+        position: fixed;
+        z-index: 10;
+        top: 65px;
+        left: 0;
+        background-color: rgb(97, 15, 15);
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .cardcontainer{
+    
+        background-color: rgb(255, 255, 255);
+        margin-left:170px;
+        margin-right: 150px;
+        height: 300px;
+        
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,auto) ;
+        grid-column-gap:50px ;
+        width: 100%;
+        grid-row-gap: 40px;
+        
+        
+    }
+.card{
+    
+    grid-gap: 30px;
+    padding: 20px;
+    font-size: 10px;
+    margin-left: 40px;
+    padding-right: 100px;
+    width: 80%;
+    box-shadow: 10px 10px 10px wheat;
+}
+.card:hover{
+color:chocolate
+}
+.container{
+    margin-left: 200px;
+    margin-right:40px;
+    width: 60%;
+    padding-left: 20px;
+    
+}
+.p1{
+    font-size: 20px;
+    font-style: unset;
+}
+.card1{
+
+    padding: left 10px;
+    background-color: wheat;
+    box-shadow: white;
+}
+.five{
+    
+    background-color:rgb(97, 15, 15);
+
+    box-shadow: 5px 10px wheat;
+    
+    
+    margin: 50px;
+}
+.four{
+    margin:-200px 400px 50px ;
+    
+    background-color: white;
+    display: none;
+}
+
+
+    
+    
+
+
+
+
+
+
